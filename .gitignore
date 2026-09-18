@@ -1,0 +1,9 @@
+hello
+hello.exe
+main.exe
+*.o
+*.obj
+*.ilk
+*.pdb
+*.out
+.vscode/
