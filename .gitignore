@@ -1,3 +1,4 @@
+TEST
 hello
 hello.exe
 main.exe
@@ -7,3 +8,12 @@ main.exe
 *.pdb
 *.out
 .vscode/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.mp4
+*.docx
+*.zip
+*.pptx
+*.pdf
