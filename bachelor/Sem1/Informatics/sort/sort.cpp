@@ -75,8 +75,8 @@
 //             if (arr[j - 1] > arr[j])
 //             {
 //                 int buffer = arr[j];
-//                 arr[j] = arr[i];
-//                 arr[i] = buffer;
+//                 arr[j] = arr[j-1];
+//                 arr[j-1] = buffer;
 //             }
 //         }
 //     }
