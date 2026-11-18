@@ -1,25 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int fac(int a)
+int fib(int n)
 {
-    if (a == 0)
-    {
-        return 0;
-    }
-    if (a == 1)
-    {
+    if (n==1 || n == 2){
         return 1;
-    }
-    if (a < 0){
-        return a;
-    }
-    return a*fac(a-1);
+    } else return fib(n-1) + fib(n-2);
     
 }
-
 int main()
 {
-    cout << fac(-2);
+    cout << fib(9);
     return 0;
 }
